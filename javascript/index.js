@@ -10,7 +10,8 @@ var peagr=""
 var divNova = document.createElement("div");
 function chamar(){
     peagr = document.getElementById("textareamensagem").value
-    document.getElementById('digitar').innerHTML = peagr;
+    document.getElementById('digitar').innerHTML += "<p>"+peagr+"</p>";
+
     
 
 }
